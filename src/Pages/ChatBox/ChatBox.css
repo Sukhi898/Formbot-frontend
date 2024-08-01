@@ -1,0 +1,93 @@
+#chat-area {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  gap: 20px;
+
+  flex-direction: column;
+  height: 100vh;
+  place-items: center;
+}
+
+#chat-box {
+  background-color: antiquewhite;
+  height: 450px;
+  width: 70%;
+}
+
+#chat-area img {
+  position: relative;
+  top: 34px;
+  left: 48px;
+}
+
+#Hello {
+  position: relative;
+  bottom: 15px;
+  left: 117px;
+  background-color: aliceblue;
+  padding: 13px;
+  width: 68px;
+  border-radius: 6px;
+}
+
+#Hi {
+  position: relative;
+  top: 6px;
+  right: 42px;
+  padding: 13px;
+  color: white;
+  float: right;
+  text-align: center;
+  width: 49px;
+  border-radius: 6px;
+  background-color: #0042da;
+}
+
+#pointer {
+  background-color: #0063ff;
+  border-radius: 20px;
+  height: 12px;
+  float: right;
+  right: 50px;
+  width: 12px;
+  position: relative;
+  top: 2px;
+}
+
+#Reply-btn {
+  height: 40px;
+  width: 54vh;
+  padding-right: 40px;
+  margin-left: 480px;
+  box-sizing: border-box;
+}
+
+.input-container {
+  position: relative;
+  width: 300px;
+}
+
+#send-btn1 {
+  width: 100%;
+  padding-right: 40px;
+  background-color: palegoldenrod;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.send-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: none;
+  border: none;
+  padding: 0 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0042da;
+}

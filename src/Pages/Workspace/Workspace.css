@@ -1,0 +1,108 @@
+body {
+  background-color: #1f1f23;
+}
+
+#Workspace-header {
+  height: 10vh;
+  background-color: #18181b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #403c44;
+}
+
+#header-left {
+  padding-left: 15px;
+  border: none;
+}
+
+#header-left {
+  padding-left: 40px;
+}
+
+#header-left input {
+  background-color: #37373e;
+  border: none;
+  border-radius: 4px;
+  width: 36vh;
+  color: white;
+  height: 20px;
+  font-size: 0.7rem;
+  padding-left: 4px;
+}
+
+#header-middle {
+  border: none;
+  height: 5vh;
+  display: flex;
+  gap: 20px;
+}
+
+#Flow-btn,
+#response-btn,
+#themes-btn {
+  background-color: transparent;
+  color: white;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+#Flow-btn.active,
+#response-btn.active,
+#themes-btn.active {
+  color: #7ea6ff;
+  border: 1px solid #7ea6ff;
+  border-radius: 6px;
+  padding: 6px;
+  background-color: transparent;
+}
+
+#header-right {
+  gap: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  width: 42vh;
+  cursor: pointer;
+}
+
+#share-btn {
+  background-color: #848890;
+  color: white;
+  padding: 5px;
+  border: 0px;
+  border-radius: 6px;
+  width: 64px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#save-btn {
+  background-color: #4ade80;
+  color: white;
+  padding: 5px;
+  font-weight: 500;
+  width: 64px;
+  border: 0px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#link-notification {
+  display: flex;
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+#link-notification a {
+  color: #ffffff;
+  text-decoration: underline;
+}

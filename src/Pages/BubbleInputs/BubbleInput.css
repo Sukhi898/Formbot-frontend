@@ -1,0 +1,93 @@
+#Selection-area {
+  display: flex;
+  gap: 370px;
+}
+
+#Selection-main {
+  background-color: #18181b;
+  height: 86vh;
+  width: 50vh;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #403c44;
+  margin-top: 10px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#bubbles,
+#Inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.bubble,
+.input {
+  border-radius: 4px;
+  display: flex;
+  background-color: #27272a;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 12px;
+}
+
+.bubble-icons {
+  color: #4b83ff;
+  font-size: 13px;
+}
+
+.Input-icons {
+  color: #ffa54c;
+}
+
+#start {
+  display: flex;
+  padding: 19px;
+  height: 45px;
+  border-radius: 12px;
+  gap: 8px;
+  color: white;
+  align-items: center;
+  margin-top: 60px;
+  width: 20vh;
+  background-color: #18181b;
+  position: sticky;
+  top: 0;
+}
+
+#start span {
+  color: white;
+}
+
+#selected {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #18181b;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 15vh;
+  width: 40vh;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+#selected p {
+  background-color: #18181b;
+  color: white;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

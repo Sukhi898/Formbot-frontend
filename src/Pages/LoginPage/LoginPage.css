@@ -1,0 +1,78 @@
+#Sign-in {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#Sign-in button {
+  height: 30px;
+}
+#Sign-in input {
+  border: 1px solid grey;
+  border-radius: 6px;
+  height: 30px;
+  padding-left: 6px;
+  width: 300px;
+  background-color: transparent;
+  color: white;
+}
+#Sign-in ::placeholder {
+  padding-left: 10px;
+}
+
+#Sign-in button {
+  background-color: #1a5fff;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+}
+
+#p1 {
+  color: white;
+  font-size: small;
+  margin-top: 20px;
+}
+#register {
+  display: flex;
+  gap: 10px;
+}
+#p2 {
+  color: #1a5fff;
+  font-size: small;
+  margin-top: 20px;
+}
+
+#span1 {
+  color: #1a5fff;
+}
+#input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+body {
+  background-color: #171a23;
+}
+#backArrow {
+  position: relative;
+  right: 100vh;
+  bottom: 8vh;
+  color: white;
+  font-size: 20px;
+}
+#LoginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+.error {
+  color: red;
+  font-size: 13px;
+}

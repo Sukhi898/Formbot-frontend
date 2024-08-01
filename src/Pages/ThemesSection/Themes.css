@@ -1,0 +1,107 @@
+#themes-sec {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  gap: 26px;
+  width: 22%;
+  background-color: #18181b;
+  overflow-y: auto;
+}
+
+#themes-sec span {
+  color: white;
+  text-align: center;
+}
+
+#sec-1 {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 50vh;
+  border-bottom: 1px solid #403c44;
+}
+
+#themes-1,
+#themes-2,
+#themes-3 {
+  height: 22vh;
+  color: white;
+  width: 29vh;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid #403c44;
+}
+
+#themes-1 img,
+#themes-2 img,
+#themes-3 img {
+  max-height: 80%;
+  max-width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#themes-1 span,
+#themes-2 span,
+#themes-3 span {
+  padding-left: 20px;
+  color: white;
+  margin-top: 15px;
+  border-radius: 0 0 6px 6px;
+}
+
+#screen {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  height: 90vh;
+}
+
+#chat-screen {
+  min-height: 490px;
+  width: 78%;
+  position: relative;
+}
+
+#chat-screen img {
+  position: relative;
+  top: 34px;
+  left: 48px;
+}
+
+#Hello {
+  position: relative;
+  bottom: 15px;
+  left: 117px;
+  background-color: aliceblue;
+  padding: 13px;
+  width: 68px;
+  border-radius: 6px;
+}
+
+#Hi {
+  position: relative;
+  top: 6px;
+  right: 42px;
+  padding: 13px;
+  color: white;
+  float: right;
+  text-align: center;
+  width: 49px;
+  border-radius: 6px;
+  background-color: #0042da;
+}
+
+#pointer {
+  background-color: #0063ff;
+  border-radius: 20px;
+  height: 12px;
+  float: right;
+  right: 50px;
+  width: 12px;
+  position: relative;
+  top: 2px;
+}

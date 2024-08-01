@@ -1,0 +1,87 @@
+#setting {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+#setting-h1 {
+  font-size: large;
+  font-size: 18px;
+  color: white;
+  height: 20px;
+  margin-top: 66px;
+  background: transparent;
+}
+#Inputbox-2 {
+  display: flex;
+  flex-direction: column;
+  /* height: 420px; */
+  width: 300px;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-top: 14px;
+  width: 100%;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid rgb(183, 181, 181);
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 40px;
+  color: white;
+  background-color: transparent;
+}
+
+.input-icon,
+.eye-icon {
+  position: absolute;
+  color: grey;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.input-icon {
+  left: 10px;
+}
+
+.eye-icon {
+  right: 10px;
+}
+#Inputbox-2 button {
+  background-color: blue;
+  margin-top: 30px;
+  height: 41px;
+  color: white;
+  width: 300px;
+  border: none;
+  border-radius: 22px;
+  font-weight: lighter;
+}
+
+#logout span {
+  font-size: 13px;
+}
+
+#logout {
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 68px;
+  left: 20px;
+  display: flex;
+  color: red;
+  align-items: center;
+}
+
+#logout-icon {
+  font-size: 17px;
+  margin-right: 10px;
+}
+#update-btn {
+  cursor: pointer;
+}
