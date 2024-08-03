@@ -1,5 +1,5 @@
 import axios from "axios";
-const BACKEND_URL = "https://ec2-13-60-104-236.eu-north-1.compute.amazonaws.com";
+const BACKEND_URL = "https://formbot-api-nwz1.onrender.com";
 
 const SaveFormdetails = async ({ formName, formData, userid }) => {
   try {
