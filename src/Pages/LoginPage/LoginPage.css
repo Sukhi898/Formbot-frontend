@@ -7,6 +7,7 @@
   gap: 20px;
 }
 #Sign-in button {
+  cursor : "pointer"
   height: 30px;
 }
 #Sign-in input {
