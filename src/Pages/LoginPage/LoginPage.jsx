@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "./LoginPage.css";
 import HandlebackArrow from "../../Components/HandlebackArrow";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
+
 import { Login } from "../../apis/User";
 import { useNavigate } from "react-router-dom";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false); 
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
@@ -43,6 +46,10 @@ const LoginPage = () => {
     }
   };
 
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+
   return (
     <div id="LoginPage">
       <HandlebackArrow />
@@ -52,17 +59,26 @@ const LoginPage = () => {
           <input
             type="email"
             placeholder="Enter your email"
+            value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
         </label>
         <label id="input">
           Password
-          <input
-            type="password"
-            placeholder="**********"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
+          <div className="password-container">
+            <input
+              type={showPassword ? "text" : "password"}
+              placeholder="**********"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <span
+              className="password-toggle-icon"
+              onClick={togglePasswordVisibility}
+            >
+              {showPassword ? <FaEyeSlash /> : <FaEye />}
+            </span>
+          </div>
         </label>
         {error && <div className="error">{error}</div>}
         <button type="submit">Log in</button>
